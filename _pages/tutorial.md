@@ -6,7 +6,7 @@ permalink: /tutorial/
 
 ## My Projects
 
-Welcome to my tutorial page. in pages _pages
+Welcome to my tutorial page. without layout
 
 ### Project 1: Awesome Project
 Here’s a brief description of my awesome project. You can learn more [here](https://link-to-your-project.com).
