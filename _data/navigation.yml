@@ -4,8 +4,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "Tutorial"
-    url: /tutorial/ 
+  # - title: "Tutorial"
+  #   url: /tutorial/ 
 
   - title: "Publications"
     url: /publications/
