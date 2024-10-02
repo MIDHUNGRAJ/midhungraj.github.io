@@ -4,8 +4,8 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
 
-  - title: "Tutorial"
-    url: /tutorial/
+  - title: "Teaching"
+    url: /teaching/ 
 
   - title: "Publications"
     url: /publications/
@@ -13,9 +13,6 @@ main:
   # - title: "Talks"
   #   url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
-    
   # - title: "Portfolio"
   #   url: /portfolio/
     
