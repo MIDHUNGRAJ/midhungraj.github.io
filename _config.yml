@@ -234,10 +234,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _tutorial
+  # _teaching
   - scope:
       path: ""
-      type: tutorial
+      type: teaching
     values:
       layout: single
       author_profile: true
