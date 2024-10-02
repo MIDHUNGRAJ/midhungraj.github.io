@@ -1,5 +1,5 @@
 ---
-layout: archive
+# layout: archive
 title: "My Tutorial"
 permalink: /tutorial/
 ---
