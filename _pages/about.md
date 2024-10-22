@@ -18,3 +18,4 @@ Currently, I’m studying for a BSc in Physics. This website serves as a platfor
 
 ---
 
+<img src="/images/cute_image.jpg" alt="image" width="500" height="300">
