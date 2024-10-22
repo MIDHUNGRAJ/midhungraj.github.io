@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Exploring AI and Technology"
-author_profile: False
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
