@@ -8,7 +8,7 @@ redirect_from:
 
 ---
 
-I'm a self-taught machine learning engineer passionate about AI, programming, and robotics. Currently pursuing a BSc in Physics, this site is where I share blogs and updates on my journey through machine learning and technology. I aim to connect with like-minded individuals and inspire collaboration among enthusiasts!
+I'm a self-taught machine learning engineer passionate about AI, programming, and robotics. Currently pursuing a BSc in Physics, this site is where I share blogs and updates on my journey through machine learning and technology.
 
 ---
 
