@@ -8,14 +8,8 @@ redirect_from:
 
 ---
 
-**Welcome!** I’m a self-taught machine learning engineer with a passion for:
-
-- AI
-- Programming
-- Robotics
-
-Currently, I’m studying for a BSc in Physics. This website serves as a platform to share my blogs and updates on my experiences in machine learning and technology, as well as to connect with others who share similar interests. I hope to inspire and collaborate with fellow enthusiasts!
+I'm a self-taught machine learning engineer passionate about AI, programming, and robotics. Currently pursuing a BSc in Physics, this site is where I share blogs and updates on my journey through machine learning and technology. I aim to connect with like-minded individuals and inspire collaboration among enthusiasts!
 
 ---
 
-<img src="/images/math_robot.jpg" alt="image" width="100" height="100">
+<img src="/images/math_robot.jpg" alt="image" width="300" height="200">
