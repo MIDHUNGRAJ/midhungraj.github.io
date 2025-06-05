@@ -27,6 +27,6 @@ A modern, responsive portfolio website template designed for AI and Machine Lear
 
 ## Contact
 
-Midhun G Raj - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Midhun G Raj - [@midhungraj](https://twitter.com/midhungraj) - neurobyte.ml@gmail.com
 
-Project Link: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio) 
+Project Link: [https://github.com/MIDHUNGRAJ/midhungraj.github.io](https://github.com/MIDHUNGRAJ/midhungraj.github.io) 
