@@ -716,3 +716,7 @@ h3 {
     z-index: 1101;
 } 
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
