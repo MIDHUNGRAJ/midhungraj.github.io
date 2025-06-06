@@ -15,7 +15,9 @@
     box-sizing: border-box;
 }
 
-html {
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
@@ -101,6 +103,7 @@ h3 {
     backdrop-filter: blur(10px);
     z-index: 1000;
     transition: var(--transition);
+    box-sizing: border-box;
 }
 
 .navbar.scrolled {
@@ -138,6 +141,8 @@ h3 {
     display: none;
     font-size: 1.5rem;
     cursor: pointer;
+    position: relative;
+    z-index: 1101;
 }
 
 /* Hero Section */
@@ -520,119 +525,32 @@ h3 {
     }
 }
 
-/* Responsive Design */
-@media (max-width: 900px) {
-    .navbar {
-        padding: 20px 16px;
-    }
-    .navbar.scrolled {
-        padding: 15px 16px;
-    }
-    .nav-brand {
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 16px 8px;
-    }
-    .navbar.scrolled {
-        padding: 12px 8px;
-    }
-    .nav-menu {
-        width: 100%;
-        margin-left: 0;
-        justify-content: flex-start;
-    }
-    .nav-brand {
-        margin-bottom: 8px;
-    }
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    .about-content,
-    .contact-content {
-        grid-template-columns: 1fr;
-    }
-
-    .about-stats {
-        grid-template-columns: 1fr;
-    }
-
-    .hero-buttons {
-        flex-direction: column;
-    }
-
-    .btn {
-        width: 100%;
-        text-align: center;
-    }
-}
-
-/* AOS Animations */
-[data-aos] {
-    opacity: 0;
-    transition-property: opacity, transform;
-}
-
-[data-aos].aos-animate {
-    opacity: 1;
-}
-
-[data-aos="fade-up"] {
-    transform: translateY(50px);
-}
-
-[data-aos="fade-up"].aos-animate {
-    transform: translateY(0);
-}
-
-[data-aos="fade-right"] {
-    transform: translateX(-50px);
-}
-
-[data-aos="fade-right"].aos-animate {
-    transform: translateX(0);
-}
-
-[data-aos="fade-left"] {
-    transform: translateX(50px);
-}
-
-[data-aos="fade-left"].aos-animate {
-    transform: translateX(0);
-} 
-
-/* --- Enhanced Mobile Optimization --- */
+/* Responsive Fixes */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         padding: 12px 8px;
+        width: 100%;
     }
+
     .nav-brand {
         margin-bottom: 0;
         font-size: 1.2rem;
     }
+
     .nav-toggle {
         display: block;
         z-index: 1100;
     }
+
     .nav-menu {
         display: none;
         position: absolute;
         top: 60px;
         left: 0;
-        width: 100vw;
+        width: 100%;
         background: var(--background-dark);
         flex-direction: column;
         align-items: flex-start;
@@ -642,19 +560,23 @@ h3 {
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
     }
+
     .nav-menu.active {
         display: flex;
     }
+
     .nav-menu li {
         width: 100%;
         padding: 0.75rem 1.5rem;
     }
+
     .nav-menu a {
         width: 100%;
         display: block;
         padding: 0.5rem 0;
         font-size: 1.1rem;
     }
+
     .about-content,
     .contact-content,
     .skills-grid,
@@ -664,28 +586,32 @@ h3 {
         grid-template-columns: 1fr !important;
         gap: 2rem;
     }
-    .about {
+
+    .about, .skills, .projects, .blog, .resume, .contact {
         padding: 60px 0;
     }
-    .skills, .projects, .blog, .resume, .contact {
-        padding: 60px 0;
-    }
+
     .hero {
         padding-top: 60px;
         min-height: 80vh;
     }
+
     .hero-content {
         padding: 0 8px;
     }
+
     h1 {
         font-size: 2rem;
     }
+
     h2 {
         font-size: 1.5rem;
     }
+
     h3 {
         font-size: 1.1rem;
     }
+
     .btn, .btn.primary, .btn.secondary {
         width: 100%;
         text-align: center;
@@ -693,30 +619,22 @@ h3 {
         padding: 14px 0;
         margin-bottom: 0.5rem;
     }
+
     .hero-buttons {
         flex-direction: column;
         gap: 0.5rem;
     }
+
     .stat-item {
         margin-bottom: 1rem;
     }
+
     .project-image img, .blog-image img {
         height: 160px;
     }
+
     .footer {
         padding: 1rem 0;
         font-size: 0.95rem;
     }
-}
-
-
-/* Make sure nav-toggle is always above nav-menu */
-.nav-toggle {
-    position: relative;
-    z-index: 1101;
-} 
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
 }
