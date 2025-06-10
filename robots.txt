@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https
+
+Sitemap: https://midhungraj.github.io/sitemap.xml
